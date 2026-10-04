@@ -1,0 +1,88 @@
+Phần 1: Phân tích vấn đề
+1. Điểm sai lệch trong cách phân loại DIKW hiện tại
+Bảng phân loại ban đầu đang bị đảo vị trí giữa các tầng Data, Information, Knowledge và Wisdom.
+Cụ thể:
+Tầng hiện tại	Nội dung	Đánh giá
+Data	“Khách hàng A thường xuyên vắng nhà vào buổi sáng”.	❌ Sai – đây đã là một nhận xét có ý nghĩa từ dữ liệu
+Information	“1205, 50000, 0912345678”.	❌ Sai – đây là các dữ liệu thô
+Knowledge	“Đề xuất giao hàng cho khách A vào buổi chiều để tăng tỷ lệ thành công”.	❌ Sai – đây là quyết định/đề xuất hành động
+Wisdom	“Bảng thống kê số đơn giao trễ trong tháng”.	❌ Sai – đây là thông tin đã được tổng hợp
+
+
+Nguyên nhân
+Sai lầm chủ yếu là do chưa phân biệt được dữ liệu thô với thông tin đã được xử lý và tri thức/ quyết định được rút ra từ thông tin.
+Có thể hiểu đơn giản:
+Data → Information → Knowledge → Wisdom
+
+Tức là:
+Dữ liệu thô → Thông tin có ý nghĩa → Tri thức/hiểu biết → Quyết định hành động phù hợp
+
+2. Định nghĩa đúng về 4 tầng DIKW
+🔹 Data – Dữ liệu
+Là những dữ kiện thô, chưa được xử lý hoặc phân tích, có thể là số, chữ, mã, thời gian, địa chỉ,...
+Ví dụ:
+1205, 50000, 0912345678
+
+Đây chỉ là những giá trị riêng lẻ, chưa cho biết chúng có ý nghĩa gì trong nghiệp vụ.
+🔹 Information – Thông tin
+Là dữ liệu đã được xử lý, sắp xếp hoặc tổng hợp để tạo ra ý nghĩa.
+Ví dụ:
+“Bảng thống kê số đơn giao trễ trong tháng.”
+
+Các dữ liệu giao hàng đã được tổng hợp thành bảng thống kê, từ đó giúp con người hiểu được tình hình giao hàng.
+🔹 Knowledge – Tri thức
+Là sự hiểu biết được rút ra từ thông tin thông qua phân tích, kinh nghiệm hoặc nhận diện quy luật.
+Ví dụ:
+“Khách hàng A thường xuyên vắng nhà vào buổi sáng.”
+
+Từ lịch sử giao hàng, FastShip nhận ra một quy luật/hành vi của khách hàng.
+🔹 Wisdom – Sự thông thái
+Là khả năng vận dụng tri thức để đưa ra quyết định hoặc hành động phù hợp nhằm đạt mục tiêu.
+Ví dụ:
+“Đề xuất giao hàng cho khách A vào buổi chiều để tăng tỷ lệ thành công.”
+
+Đây không chỉ là nhận biết khách hàng thường vắng nhà mà đã sử dụng tri thức đó để đưa ra hành động cụ thể.
+Phần 2: Sắp xếp lại 4 mệnh đề
+Bảng phân loại đúng là:
+Tầng DIKW	Mệnh đề đúng
+🟦 Data	“1205, 50000, 0912345678.”
+🟩 Information	“Bảng thống kê số đơn giao trễ trong tháng.”
+🟨 Knowledge	“Khách hàng A thường xuyên vắng nhà vào buổi sáng.”
+🟥 Wisdom	“Đề xuất giao hàng cho khách A vào buổi chiều để tăng tỷ lệ thành công.”
+
+
+Sơ đồ DIKW
+              WISDOM
+                 ▲
+                 │
+"Đề xuất giao hàng cho khách A
+ vào buổi chiều để tăng tỷ lệ thành công"
+                 │
+              KNOWLEDGE
+                 ▲
+                 │
+"Khách hàng A thường xuyên
+ vắng nhà vào buổi sáng"
+                 │
+             INFORMATION
+                 ▲
+                 │
+"Bảng thống kê số đơn
+ giao trễ trong tháng"
+                 │
+                DATA
+                 ▲
+                 │
+"1205, 50000, 0912345678"
+
+Kết luận
+Bốn mệnh đề được sắp xếp theo đúng tháp DIKW như sau:
+Data: 1205, 50000, 0912345678
+↓
+Information: Bảng thống kê số đơn giao trễ trong tháng
+↓
+Knowledge: Khách hàng A thường xuyên vắng nhà vào buổi sáng
+↓
+Wisdom: Đề xuất giao hàng cho khách A vào buổi chiều để tăng tỷ lệ thành công.
+
+Điểm quan trọng cần nhớ: Data chỉ là dữ liệu thô, Information là dữ liệu có ý nghĩa, Knowledge là hiểu biết/quy luật rút ra, còn Wisdom là vận dụng hiểu biết để đưa ra quyết định đúng.
